@@ -1,0 +1,8 @@
+sudo dnf install python3-pip
+now run as a normal user
+pip3 install awscli --upgrade --user
+aws --version
+aws configure
+
+if we want to uninstall
+pip3 uninstall awscli
